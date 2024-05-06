@@ -16,7 +16,7 @@
 
 ```bash
 pip install pyTelegramBotAPI requests
-pip install git+https://github.com/LonamiWebs/vk-audio-token.git
+pip install vkaudiotoken
 ```
 
 ## Запуск бота
