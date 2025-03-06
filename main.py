@@ -36,7 +36,7 @@ def send_welcome(message):
     username = message.from_user.first_name
     markup = types.InlineKeyboardMarkup()
     token_button = types.InlineKeyboardButton(text="📄Получить", callback_data="get_token")
-    dev_button = types.InlineKeyboardButton(text="🟠Dev", url="https://t.me/pizzaway")
+    dev_button = types.InlineKeyboardButton(text="🟠Dev", url="https://t.me/worpli")
     markup.add(token_button, dev_button)
     bot.send_message(message.chat.id, f"Добрый день, {username}! Я помогу Вам получить access token (Токен) от ВКонтакте!\nЖмите кнопку '📄Получить', чтобы начать!\n🟥Важно! Если у вас на аккаунте стоит 2FA (двухфакторная авторизация), Бот не сможет получить токен!", reply_markup=markup)
 
