@@ -42,4 +42,4 @@ python main.py
 
 ## Авторство
 
-Этот бот был создан [PIZZAWAY](https://t.me/pizzaway).
+Этот бот был создан [worpli](https://t.me/worpli).
